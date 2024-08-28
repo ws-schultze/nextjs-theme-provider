@@ -1,0 +1,28 @@
+:root {
+  --color-1: #2326ea; /* primary color in light mode */
+  --color-2: #1f10a0; /* secondary color in light mode */
+  --color-3: #4027e6; /* tertiary color in light mode */
+
+  --color-background-1: #ffffff; /* background color in light mode */
+  --color-background-2: #b9d0ff; /* background color in light mode */
+  --color-background-3: #767676; /* background color in light mode */
+
+  --color-text-1: #000000; /* text color in light mode */
+  --color-text-2: #1a424c; /* text color in light mode */
+  --color-text-3: #292e04; /* text color in light mode */
+}
+
+[data-theme="dark"] {
+  --color-1: #59e8d9; /* primary color in dark mode */
+  --color-2: #38938a; /* secondary color in dark mode */
+  --color-3: #216760; /* tertiary color in dark mode */
+
+  --color-background-1: #1a202c; /* background color in dark mode */
+  --color-background-2: #253350; /* background color in dark mode */
+  --color-background-3: #0b2f79; /* background color in dark mode */
+
+  --color-text-1: #ffffff; /* text color in dark mode */
+  --color-text-2: #64e0ff; /* text color in dark mode */
+  --color-text-3: #dff62c; /* text color in dark mode */
+}
+/* Updated the prod */
