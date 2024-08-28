@@ -42,13 +42,6 @@ export default function Home() {
         If all goes well, there should be no FOUC when reloading the page and
         the theme should also change with system preferences.
       </p>
-      <Link
-        href={"/demo-route"}
-        className="flex gap-3 items-center bg-green-900 p-2 rounded"
-      >
-        Go to demo route
-        <IoArrowForward />
-      </Link>
     </main>
   );
 }
