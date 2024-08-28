@@ -1,6 +1,6 @@
 type Props = {
   children: React.ReactNode;
-  onClick: () => void;
+  onClick?: () => void;
 };
 
 export default function PrimaryBtn({ children, onClick }: Props) {

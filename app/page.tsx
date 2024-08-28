@@ -2,6 +2,9 @@ import { ThemeBtn } from "@/components/ui/theme-btn";
 import { MdOutlineWbSunny } from "react-icons/md";
 import { BsMoonStars } from "react-icons/bs";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
+import Link from "next/link";
+import PrimaryBtn from "@/components/ui/primary-btn";
+import { IoArrowForward } from "react-icons/io5";
 
 export default function Home() {
   return (
@@ -39,6 +42,15 @@ export default function Home() {
         If all goes well, there should be no FOUC when reloading the page and
         the theme should also change with system preferences.
       </p>
+      {/* <PrimaryBtn> */}
+      <Link
+        href={"/demo-route"}
+        className="flex gap-3 items-center bg-green-900 p-2 rounded"
+      >
+        Go to demo route
+        <IoArrowForward />
+      </Link>
+      {/* </PrimaryBtn> */}
     </main>
   );
 }
